@@ -1,0 +1,155 @@
+Model Testing Results
+==================================================
+
+Test Data Info:
+  Total samples: 191,263
+  Date range: 2024-04-15 00:00:00 to 2025-10-21 00:00:00
+  Target distribution: [ 91251 100012]
+
+Final Results:
+------------------------------
+Fold_1 Results:
+------------------------------
+Logistic Regression:
+  Accuracy:  0.4771
+  Precision: 0.0000
+  Recall:    0.0000
+  F1-Score:  0.0000
+  AUC:       0.5167
+  Confusion Matrix: [[91251    0]
+                     [100012    0]]
+
+Random Forest:
+  Accuracy:  0.4805
+  Precision: 0.5481
+  Recall:    0.0369
+  F1-Score:  0.0692
+  AUC:       0.5040
+  Confusion Matrix: [[88205 3046]
+                     [96318 3694]]
+
+Gradient Boosted Trees:
+  Accuracy:  0.4802
+  Precision: 0.5917
+  Recall:    0.0189
+  F1-Score:  0.0366
+  AUC:       0.5040
+  Confusion Matrix: [[89948 1303]
+                     [98124 1888]]
+
+Fold_2 Results:
+------------------------------
+Logistic Regression:
+  Accuracy:  0.4771
+  Precision: 0.7500
+  Recall:    0.0001
+  F1-Score:  0.0001
+  AUC:       0.5200
+  Confusion Matrix: [[91249    2]
+                     [100006    6]]
+
+Random Forest:
+  Accuracy:  0.4803
+  Precision: 0.5178
+  Recall:    0.0889
+  F1-Score:  0.1517
+  AUC:       0.5012
+  Confusion Matrix: [[82974 8277]
+                     [91125 8887]]
+
+Gradient Boosted Trees:
+  Accuracy:  0.4872
+  Precision: 0.5477
+  Recall:    0.1108
+  F1-Score:  0.1844
+  AUC:       0.5123
+  Confusion Matrix: [[82095 9156]
+                     [88927 11085]]
+
+Fold_3 Results:
+------------------------------
+Logistic Regression:
+  Accuracy:  0.4914
+  Precision: 0.5566
+  Recall:    0.1343
+  F1-Score:  0.2164
+  AUC:       0.5273
+  Confusion Matrix: [[80551 10700]
+                     [86579 13433]]
+
+Random Forest:
+  Accuracy:  0.4927
+  Precision: 0.5202
+  Recall:    0.3847
+  F1-Score:  0.4423
+  AUC:       0.4965
+  Confusion Matrix: [[55766 35485]
+                     [61540 38472]]
+
+Gradient Boosted Trees:
+  Accuracy:  0.4774
+  Precision: 0.5012
+  Recall:    0.1165
+  F1-Score:  0.1890
+  AUC:       0.4867
+  Confusion Matrix: [[79654 11597]
+                     [88361 11651]]
+
+Fold_4 Results:
+------------------------------
+Logistic Regression:
+  Accuracy:  0.4879
+  Precision: 0.5478
+  Recall:    0.1186
+  F1-Score:  0.1950
+  AUC:       0.5311
+  Confusion Matrix: [[81459 9792]
+                     [88152 11860]]
+
+Random Forest:
+  Accuracy:  0.4763
+  Precision: 0.4769
+  Recall:    0.0161
+  F1-Score:  0.0311
+  AUC:       0.5019
+  Confusion Matrix: [[89488 1763]
+                     [98405 1607]]
+
+Gradient Boosted Trees:
+  Accuracy:  0.4821
+  Precision: 0.5282
+  Recall:    0.0897
+  F1-Score:  0.1533
+  AUC:       0.4985
+  Confusion Matrix: [[83240 8011]
+                     [91043 8969]]
+
+Fold_5 Results:
+------------------------------
+Logistic Regression:
+  Accuracy:  0.5070
+  Precision: 0.5572
+  Recall:    0.2786
+  F1-Score:  0.3715
+  AUC:       0.5263
+  Confusion Matrix: [[69105 22146]
+                     [72147 27865]]
+
+Random Forest:
+  Accuracy:  0.4784
+  Precision: 0.5135
+  Recall:    0.0490
+  F1-Score:  0.0895
+  AUC:       0.5003
+  Confusion Matrix: [[86603 4648]
+                     [95107 4905]]
+
+Gradient Boosted Trees:
+  Accuracy:  0.4884
+  Precision: 0.5238
+  Recall:    0.2377
+  F1-Score:  0.3270
+  AUC:       0.4904
+  Confusion Matrix: [[69637 21614]
+                     [76237 23775]]
+
